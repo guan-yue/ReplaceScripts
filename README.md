@@ -5,7 +5,7 @@ Chrome Extensions
 
 Chrome Extension 介绍 参考 
 
-'''
+'''xml
 
 官网介绍： https://developer.chrome.com/extensions
 
