@@ -10,3 +10,8 @@ Chrome Extension 介绍 参考
 
 360浏览器开发平台（其使用了chrome内核，仅供参考）：http://open.se.360.cn/open/extension_dev/browseraction.html
 ```
+
+
+## 注意
+
+使用时请将`music163core.js`替换成最新
