@@ -6,7 +6,8 @@
 	"description": "替换网易云音乐脚本core.js,需使用最新的core.js",
 	"permissions": ["webRequest",
 	"webRequestBlocking",
-	"https://s3.music.126.net/web/s/core.js*",//获取访问权限
+    "https://*/*",//added here--> can't read or change site's data  
+	"https://s3.music.126.net/web/s/core_*",//获取访问权限
 	"tabs"],
 	"browser_action": {
 		"default_icon": "ic_hello.png",
@@ -18,7 +19,7 @@
 	},
 	"web_accessible_resources": ["music163core.js"],
 	"content_scripts": [{
-		"matches": ["https://s3.music.126.net/web/s/core.js*"],//脚本注入
+		"matches": ["https://s3.music.126.net/web/s/core_*"],//脚本注入
 		"js": ["music163core.js"]
 	}]
 }
